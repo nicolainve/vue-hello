@@ -12,6 +12,11 @@
 
 <body>
 
+    <div id="root" :style="style">
+        <h1>{{ message }}</h1>
+        <img v-bind:src="image" alt="Evan You">
+    </div>
+
     <script src="./js/main.js"></script>
     
 </body>
